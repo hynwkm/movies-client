@@ -5,6 +5,8 @@
 A full-stack movie review application based on the freeCodeCamp tutorial.
 This project was developed following freeCodeCamp’s course on full-stack development, which features MongoDB for the database, Java and Spring Boot for the backend, and React for the frontend.
 
+[Visit Website](https://movies-client-peach.vercel.app/)
+
 [Backend Respository](https://github.com/hynwkm/movies-api)
 
 ## Installation
