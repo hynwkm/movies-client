@@ -1,50 +1,33 @@
-# React + TypeScript + Vite
+# Watch This Next
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Description
 
-Currently, two official plugins are available:
+A full-stack movie review application based on the freeCodeCamp tutorial.
+This project was developed following freeCodeCamp’s course on full-stack development, which features MongoDB for the database, Java and Spring Boot for the backend, and React for the frontend.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Backend Respository](https://github.com/hynwkm/movies-api)
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clone the repository
+2. cd project-directory-name
+3. npm install
+4. npm run dev
 
-- Configure the top-level `parserOptions` property like this:
+## Features
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- The User can view list of movies
+- The User can watch a youtube trailer of the movie
+- The user can view reviews on movies
+- The User can write review on movie
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Upcoming Features
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- The User can log in
+- The User can save a movie to watchlist
+- The User can view watchlist
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Contact
+
+Created by [Hyun Woo Kim](https://hynwkm.github.io/)
+[LinkedIn](https://www.linkedin.com/in/hyunwoo-kim/)
