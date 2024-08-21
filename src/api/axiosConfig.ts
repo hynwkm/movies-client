@@ -1,6 +1,10 @@
 import axios from "axios";
+const apiUrl = import.meta.env.VITE_BASE_URL;
 
 export default axios.create({
-    baseURL: process.env.REACT_APP_BASE_URL || "http://localhost:8080/",
-    headers: { "ngrok-skip-browser-warning": "true" },
+    baseURL: apiUrl || "http://localhost:8080/",
+    headers: {
+        "Content-Type": "application/json",
+        "ngrok-skip-browser-warning": "true",
+    },
 });
